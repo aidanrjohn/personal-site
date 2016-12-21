@@ -1,4 +1,7 @@
 $(document).ready(function() { 
+    
+    initMap();
+    
     $('#title').fadeTo(500, 1).css("display", "table");
     
     $('.link').each(function(i) {
@@ -33,3 +36,15 @@ function aboutIn() {
         $(this).delay((i++) * 400 + 1500).fadeTo(500, 1);  
     });
 }
+
+function initMap() {
+        var oakland = {lat: 40.438825, lng: -79.957155};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: oakland
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }

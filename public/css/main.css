@@ -21,7 +21,7 @@
 #projects-page {
 
 	font-family: 'Raleway', sans-serif;
-	background-image: url("/public/img/les-paul.jpg");
+	background-image: url("/public/img/crossword.png");
   	background-repeat: no-repeat;
  	background-size: cover;
 	height: 100vh;	
@@ -52,6 +52,17 @@
 	font-size: 70px;
 	font-weight: bold;
 	color: #ffffff;
+}
+
+#projects-title {
+	text-align: center;
+	margin: 10vh auto;
+}
+
+#projects-title h1 {
+	font-size: 70px;
+	font-weight: bold;
+	color: #a51010;
 }
 
 #about-content {
@@ -107,6 +118,13 @@
 #freecodecamp:hover {
 	background: #008000;
 }
+
+#map {
+	height: 50vh;
+    width: 100%;
+}
+
+
 .button-link {
 	width: 150px;
 	height: 50px;
