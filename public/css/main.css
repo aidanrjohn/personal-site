@@ -56,6 +56,7 @@
 
 #about-content {
 	margin-bottom: 10vh;
+	display: none;
 }
 
 #about-content p {
@@ -75,8 +76,49 @@
 	margin-top: 20vh;
 	display: flex;
 	justify-content: space-between;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
+}
+
+#github {
+	background: #000000;
+	color: #ffffff;
+}
+
+#github:hover {
+	background: #333333;
+}
+
+#linkedin {
+	background: #0077b5;
+	color: #ffffff;
+}
+
+#linkedin:hover {
+	background: #006399;
+}
+
+#freecodecamp {
+	background: #009900;
+	color: #ffffff;
+	width: 220px;
+}
+
+#freecodecamp:hover {
+	background: #008000;
+}
+.button-link {
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	font-size: 25px;
+	line-height: 50px;
+	display: none;
+}
+
+a {
+	text-decoration: none !important;
 }
 
 .link {
@@ -90,4 +132,6 @@
 .link:hover {
 	background-color: rgba(255, 255, 255, 0.8);
 }
+
+
 
