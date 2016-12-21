@@ -8,8 +8,27 @@
 
 }
 
-#title {
+#about-me {
 	
+	font-family: 'Raleway', sans-serif;
+	background-image: url("/public/img/grey_wash_wall.png");
+  	background-repeat: repeat;
+ 	background-size: auto;
+	height: 100vh;
+	
+}
+
+#projects-page {
+
+	font-family: 'Raleway', sans-serif;
+	background-image: url("/public/img/les-paul.jpg");
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+	height: 100vh;	
+	
+}
+
+#title {
   	text-align: center;
   	margin: 20vh auto;
   	display: none;
@@ -22,10 +41,41 @@
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
+
+#about-title {
+	text-align: center;
+  	margin: 10vh auto;
+  	display: none;
+}
+
+#about-title h1 {
+	font-size: 70px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#about-content {
+	margin-bottom: 10vh;
+}
+
+#about-content p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+}
+
 #links {
 	display: flex;
 	justify-content: space-between;
 	width: 40%;
+	margin: 0 auto;
+}
+
+#about-links {
+	margin-top: 20vh;
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -40,3 +90,4 @@
 .link:hover {
 	background-color: rgba(255, 255, 255, 0.8);
 }
+
