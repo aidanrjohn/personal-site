@@ -6,7 +6,7 @@ var mongo = require('mongodb').MongoClient;
 
 var app = express();
 
-mongo.connect('mongodb://localhost:27017/clementinejs', function (err, db) {
+mongo.connect('mongodb://localhost:27017/sitedb', function (err, db) {
 
 	if (err) {
 		throw new Error('Database failed to connect!');

@@ -24,7 +24,7 @@
 	background-image: url("/public/img/crossword.png");
   	background-repeat: no-repeat;
  	background-size: cover;
-	height: 100vh;	
+	height: 200vh;	
 	
 }
 
@@ -119,9 +119,14 @@
 	background: #008000;
 }
 
+#project1 h2 {
+	font-weight: bold;
+}
+
 #map {
 	height: 50vh;
     width: 100%;
+    margin-top: 50px;
 }
 
 
