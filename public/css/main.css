@@ -118,13 +118,19 @@
 	background: #008000;
 }
 
+#project1 {
+	text-align: center;
+}
+
 #project1 h2 {
 	font-weight: bold;
 }
 
 #map {
+	display: inline-block;
+	margin: 0 auto;
 	height: 50vh;
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
 }
 
