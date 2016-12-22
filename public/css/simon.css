@@ -1,0 +1,164 @@
+#game {
+  
+  background-image: url("http://img00.deviantart.net/9320/i/2008/078/b/d/my_brushed_metal_texture_by_j4nuw3.jpg");
+  
+  height: 500px;
+  width: 500px;
+  margin-top: 50px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 3px 3px 3px 3px #ccccc9;
+  
+  
+  
+}
+
+#screen {
+  
+    position: relative;
+    background: #e6e6e6;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 125px;
+    margin-left: 110px;
+    position: absolute;
+    border: solid 10px;
+    
+}
+
+#green {
+  
+  position: absolute;
+  background: #29a329;
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 100%;
+  margin-left: -15px;
+  border: solid 20px;
+  
+}
+
+#red {
+  
+  position: absolute;
+  background: #b30000;
+  width: 250px;
+  height: 250px;
+  border-top-right-radius: 100%;
+  margin-left: 235px;
+  border: solid 20px;
+  
+  
+}
+
+#yellow {
+  
+  position: absolute;
+  background: #e6e600;
+  width: 250px;
+  height: 250px;
+  border-bottom-left-radius: 100%;
+  margin-left: -15px;
+  margin-top: 250px;
+  border: solid 20px;
+}
+
+#blue {
+  
+  position: absolute;
+  background: #0000b3;
+  width: 250px;
+  height: 250px;
+  border-bottom-right-radius: 100%;
+  margin-left: 235px;
+  margin-top: 250px;
+  border: solid 20px;
+}
+
+#text {
+  
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 45px;
+  
+}
+
+#display {
+  
+  position: absolute;
+  width: 65px;
+  height: 50px;
+  background: #330000;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 10%;
+  border: solid 3px #262626;
+  color: #b30000;
+  font-size: 30px;
+  
+}
+
+#start {
+  
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #ff0000;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 110px;
+  border: solid 3px #262626;
+  box-shadow: 1px 1px 1px 1px #999999;
+  
+}
+
+#strict {
+  
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #ffff00;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 160px;
+  border: solid 3px #262626; 
+  box-shadow: 1px 1px 1px 1px #999999;
+  
+}
+
+#strictLight {
+  
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #990000;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 170px;
+  border: solid 3px #262626; 
+  
+  
+}
+
+#count {
+  
+  position: absolute;
+  margin-left: 38px;
+  margin-top: 63px;
+}
+
+#startText {
+  
+  position:absolute;
+  margin-left: 110px;
+  margin-top: 60px;
+}
+
+#strictText {
+  
+  position:absolute;
+  margin-left: 160px;
+  margin-top: 60px;
+}
+

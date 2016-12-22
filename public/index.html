@@ -5,6 +5,7 @@
 		<title>Aidan John</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+		<link href="/public/css/simon.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
 		   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,12 +47,33 @@
 					<h3 class="text-center">Uses data from Pitt Police website, MongoDB, and Google Maps Javascript APIs</h3>
 					<div id="map"></div>
 				</div>
+				<div id="project2">
+					<h2 class="text-center">Interactive Simon Game</h2>
+					<h3 class="text-center">Uses pure CSS and Javascript</h3>
+					<div id="game" class="container text-center">
+						<div class="button" id="green" onclick="greenPressed()"></div>
+						<div class="button" id="red" onclick="redPressed()"></div>
+						<div class="button" id="yellow" onclick="yellowPressed()"></div>
+						<div class="button" id="blue" onclick="bluePressed()"></div>
+						<div id="screen"><h1 id="text">Simon</h1>
+							<div id="display">- -</div>
+							<div id="start" onclick="startPressed()"></div>
+							<div id="strict" onclick="strictPressed()"></div>
+							<div id="strictLight"></div>
+							<div id="count">Count</div>
+							<div id="startText">Start</div>
+							<div id="strictText">Strict</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="scripts/home.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
 		   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js"></script>
+		<script type="text/javascript" src="scripts/simon.js"></script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3C2BqkbABUPo2KgsM6PeIVFDm-JFNab4&callback=initMap"></script>
 	</body>
 

@@ -129,6 +129,13 @@
     margin-top: 50px;
 }
 
+#project2 {
+	margin-top: 100px;
+}
+
+#project2 h2 {
+	font-weight: bold;
+}
 
 .button-link {
 	width: 150px;
