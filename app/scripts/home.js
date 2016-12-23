@@ -54,9 +54,15 @@ function initMap() {
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString
                 });
+                var image;
+                if (mapMarker.type === 'burglary')
+                    image = 'public/img/burglar.png';
+                else
+                    image = 'public/img/badge.png';
                 var marker = new google.maps.Marker({
                     position: pos,
-                    map: map
+                    map: map,
+                    icon: image
                 });
                 marker.addListener('click', function() {
                     infowindow.open(map, marker);
