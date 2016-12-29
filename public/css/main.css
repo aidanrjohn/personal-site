@@ -28,9 +28,9 @@
 }
 
 #title {
+	display: table;
   	text-align: center;
   	margin: 20vh auto;
-  	display: none;
 }
 
 #title h1 {
@@ -44,7 +44,6 @@
 #about-title {
 	text-align: center;
   	margin: 10vh auto;
-  	display: none;
 }
 
 #about-title h1 {
@@ -66,7 +65,6 @@
 
 #about-content {
 	margin-bottom: 10vh;
-	display: none;
 }
 
 #about-content p {
@@ -149,7 +147,6 @@
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 	font-size: 25px;
 	line-height: 50px;
-	display: none;
 }
 
 a {
@@ -157,7 +154,6 @@ a {
 }
 
 .link {
-	display: none;
 	font-size: 50px;
 	color: #a51010;
 	background-color: rgba(255, 255, 255, 0.7);
