@@ -16,6 +16,43 @@ module.exports = function (app, db) {
 				if(err) throw err;
 				res.send(results);
 			});
-		})
+		});
+		
+	app.route('/api/app/users')
+		.get(function (req,res) {
+			var users = db.collection('users');
+			users.find({}).toArray((err, results) => {
+				if(err) throw err;
+				res.send(results);
+			});
+		});
+		
+	app.route('/api/app/users')
+		.post(function (req, res) {
+			var users = db.collection('users');	
+			console.log(req.body);
+			users.insert(req.body, (err, results) => {
+				if(err)throw err;
+				res.send(results);
+			});
+		});
+		
+	app.route('/api/app/questions')
+		.get(function(req, res) {
+			var questions = db.collection('questions');
+			questions.find({}).toArray((err, results) => {
+				if(err) throw err;
+				res.send(results);
+			});
+		});
+		
+	app.route('/api/app/question')
+		.post(function(req, res) {
+			var questions = db.collection('questions');
+			questions.insert(req.body, (err, results) => {
+				if (err) throw err;
+				res.send(results);
+			});
+		});
 
 };
